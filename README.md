@@ -1,6 +1,6 @@
 # single-cell RNAseq analysis: a pre-analysis pipeline
 
-The repository contains scripts used in a single-cell analysis course taight by J. Montenegro and A. Cole in Univ. of Vienna (January 8 to February 5, 2023).
+The repository contains scripts used in a single-cell analysis course taught by J. Montenegro and A. Cole in Univ. of Vienna (January 8 to February 5, 2023).
 
 In summary, these batch scripts provide a step-by-step process for building a reference gene-model dataset and then mapping the scRNA-seq reads to a reference genome featuring the gene-model information initially generated. It is important to note that we are primarily interested in reads that map to the protein-coding regions of the genome, as we are primarily concerned with the differential gene expression profiles of cells.
 
@@ -11,7 +11,7 @@ In summary, these batch scripts provide a step-by-step process for building a re
 4. Perform a preliminary analysis and quality check of the scRNAseq data by mapping them to the genome that features the guide gtf generated from scripts 01 to 06 using script 07.
 
 ## What these scripts don't do:
-- Perform post-analysis of scRNAseq datasets, such as UMAP or tSNE.
+- Perform post-analysis of scRNAseq datasets, such as generating UMAP or tSNE.
 
 ## Data used in the example dataset (ncbi accession numbers):
 1. Nematostella vectensis RNAseq reads (blastula stage): SRR24348406
